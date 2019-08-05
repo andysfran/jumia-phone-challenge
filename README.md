@@ -10,7 +10,7 @@ It's a simple project that you can see a list of phones, and filter for country 
 composer install
 ```
 
-3 - Clone the .env.example file, rename to .env and update the folder of your project in the .env file. Ex: ```C:\Users\Alex\Documents\jumia-phone-project\database\sample.sqlite```
+3 - Clone the .env.example file, rename to .env and update the folder of your project in the DB_DATABASE constant(.env file). Ex: ```C:\Users\Alex\Documents\jumia-phone-project\database\sample.sqlite```
 
 4 - Generate a new encrypt key
 ```bash
